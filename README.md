@@ -2,10 +2,12 @@
 
 
 
-<!-- 1. Clonar o projeto
+<!-- 
+1. Clonar o projeto
 git clone https://github.com/focoensino/BarbeExpress.git
 2. Entrar na pasta
-cd BarbeExpress -->
+cd BarbeExpress 
+-->
 
 <!-- 
 
@@ -13,8 +15,8 @@ cd BarbeExpress -->
 git pull
 
 4. Depois de alterar algo
-git add .
 
+git add .
 git commit -m "mensagem"
 git push
 
