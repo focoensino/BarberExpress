@@ -3,6 +3,8 @@
 
 
 <!-- 
+instruções para usar o git
+
 1. Clonar o projeto
 git clone https://github.com/focoensino/BarbeExpress.git
 2. Entrar na pasta
