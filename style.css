@@ -104,3 +104,28 @@ body{
   font-size: var(--font-size-14);
   font-weight: var(--font-regular);
 }
+
+/* --- ADAPTAÇÃO PARA CELULAR (MEDIA QUERY) --- */
+@media (max-width: 600px) {
+  .topo {
+    height: 70px;             /* Diminui a altura do topo */
+    padding: 0 16px;          /* Reduz o espaço nas laterais */
+  }
+
+  .logo img {
+    height: 24px;             /* Diminui o tamanho das logos */
+  }
+
+  .div_perfil {
+    gap: 12px;                /* Aproxima os itens do perfil */
+  }
+
+  #agendamentos-texto {
+    display: none;            /* Esconde o texto para poupar espaço */
+  }
+
+  #perfil {
+    padding: 6px 12px;        /* Diminui o tamanho do botão */
+    font-size: var(--font-size-12); /* Diminui a fonte do botão */
+  }
+}
