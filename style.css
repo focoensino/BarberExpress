@@ -59,7 +59,7 @@ body{
 }
 
 /* topo da tela Home */
-.topo{
+.topo {
   height: 96px;
   background-color: var(--background-black);
 
@@ -68,7 +68,9 @@ body{
   justify-content: space-between;
 
   padding: 0 40px;
+  border-bottom: 1px solid #2e2e2e; 
 }
+
 
 .logo{
   display: flex;
