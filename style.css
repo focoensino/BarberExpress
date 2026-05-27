@@ -1,4 +1,3 @@
-/* variaveis do css */
 
 :root { 
   /* cores */
@@ -107,8 +106,118 @@ body{
 
 /* Final do Topo */
 
+h2 {
+ color: #ffffff;
+ font-weight: var(--font-medium);
+ font-size: 24px;
+ margin-left: 75px;
+font-style: nunito;
 
+}
 
+h4{
+ color: #FFFFFF;
+  font-weight: var(--font-medium);
+  font-size: 14px;
+  margin-left: 75px;
+  font-style: nunito;
+}
+
+.LoginCubo1 {
+width: 100%;
+height: 463px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/imagensDePessoas/09d6cb2895fbf0a84e0effba3cc15693d02a71a7.jpg');
+filter: grayscale(100%); 
+background-size: cover; 
+background-position: top center; 
+background-repeat: no-repeat;
+padding-top: 50px; 
+box-sizing: border-box;
+position: relative; 
+}
+
+.buscBarb{
+ height: 36px;
+ width: 391px;
+ margin-top: 20px;
+ border-radius: 10px;
+ background-color: #1A1B1F;
+ color: #838896;
+}
+
+.btnPesquisa{
+  height: 36px;
+  width: 40px;
+  margin-top: 10px;
+  position: absolute; 
+  bottom: 310px; 
+  left: 480px;
+  border-radius: 10px; 
+  background-image: url('./img/icon/lupa.svg');
+  background-size: 20px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: var( --primary-purple);
+}
+
+/* Populares */
+
+.Populares {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+  padding: 20px 75px;
+}
+
+.POPU {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ffffff; /* Garante que o título principal fique visível no fundo escuro */
+}
+
+/* CORREÇÃO AQUI: Mudado de .POPU01 para .POPU1 (A estrutura da caixa) */
+.POPU1 {
+  background-color: #1A1B1F; 
+  width: 260px;             
+  border-radius: 12px;     
+  overflow: hidden;         
+  display: flex;
+  flex-direction: column;
+}
+
+/* O título interno de cada caixinha */
+.POPU01 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0 0 6px 0; 
+}
+
+.info-card {
+  padding: 16px; 
+}
+
+.LOCAL01 {
+  color: var(--gray-03);
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.foto-card {
+  width: 100%;
+  height: 150px;            
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;        
+}
+
+.foto-primmus { 
+  background-image: url('./img/imagensDePessoas/barbeiro01.svg'); 
+}
 /* --- ADAPTAÇÃO PARA CELULAR (MEDIA QUERY) --- */
 @media (max-width: 600px) {
   .topo {

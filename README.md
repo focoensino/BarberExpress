@@ -18,24 +18,6 @@ git clone https://github.com/focoensino/BarbeExpress.git
 
 ---
 
-## 2. Entrar na pasta do projeto
-
-```bash
-cd BarbeExpress
-```
-
----
-
-## 3. Abrir o projeto no VS Code
-
-Digite:
-
-```bash
-code .
-```
-
----
-
 # ⚠️ ANTES DE COMEÇAR A PROGRAMAR
 
 Sempre atualize o projeto antes de mexer em qualquer arquivo.
