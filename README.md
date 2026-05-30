@@ -1,4 +1,6 @@
 # BarbeExpress
+Link do projeto no Figma:
+https://www.figma.com/design/Cixv3HCe7j31eMCvvbGz26/barber-jv?node-id=1-8&p=f
 
 ## 📌 Boas práticas para programar em equipe
 
@@ -11,6 +13,7 @@ Essas instruções servem para que todos os desenvolvedores consigam entender o 
 ## 1. Clonar o projeto
 
 Abra o terminal do VS Code e digite:
+
 
 ```bash
 git clone https://github.com/focoensino/BarbeExpress.git
